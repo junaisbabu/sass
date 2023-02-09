@@ -1,6 +1,6 @@
 // variables & functions
 @import "functions";
-@import "variables"; // we can access variables in base file if it is on above the line
+@import "variables";
 
 // base & layout
 @import "base";
@@ -8,8 +8,9 @@
 // colors
 @import "colors";
 
-// components (button, card, navbar)
+// components (button, card, navbar etc)
 @import "components/card";
 @import "components/button";
 
-// utilities (margin, padding, opacity)
+// utilities (margin, padding, opacity, etc)
+@import "utilities";
